@@ -42,7 +42,7 @@ body {
 
 .tm-section-1 {
   height: 750px;
-  background-image: url(../img/proposal.jpg);
+  background-image: url(../img/cover.jpeg);
   background-size: cover;
   -webkit-clip-path: polygon(0px 0px, 100% 0px, 100% 84%, 0px 100%);
   clip-path: polygon(0px 0px, 100% 0px, 100% 84%, 0px 100%);
