@@ -61,7 +61,16 @@ body {
   display: flex;
   align-items: center;
 }
-
+.tm-section-5 {
+  height: 790px;
+  background-image: url(../img/hadroh.jpeg);
+  background-size: cover;
+  -webkit-clip-path: polygon(0px 0px, 100% 14%, 100% 86%, 0px 100%);
+  clip-path: polygon(0px 0px, 100% 14%, 100% 86%, 0px 100%);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
 .tm-color-primary {
   color: #cc0064;
 }
@@ -249,7 +258,18 @@ a.btn:hover {
   img {
     max-width: 100%;
   }
-
+  .card-deck .card {
+    height: 77px;
+  }
+  .card-deck .card img {
+    width: 75px;
+    height: 75px;
+  }
+  .card-deck .card .card-body h5 {
+    position: absolute;
+    top: 30px;
+    left: 90px;
+  }
   .tm-section-1,
   .tm-section-3 {
     height: auto;
